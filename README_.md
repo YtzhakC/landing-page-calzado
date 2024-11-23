@@ -9,3 +9,5 @@ git add .
 git commit -am "maquetado pop-up"
 git add .
 git commit -am "elementos añadidos al pop-up"
+git add .
+git commit -am "elementos añadidos al pop-up"
