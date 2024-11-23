@@ -58,6 +58,11 @@ body, html {
 
 .card {
     width: 60%;
+    font-size: 1.25vw;
+}
+
+.button {
+    font-size: 1vw;
 }
 
 .encabezado {
