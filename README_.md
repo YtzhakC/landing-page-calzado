@@ -11,3 +11,5 @@ git add .
 git commit -am "elementos añadidos al pop-up"
 git add .
 git commit -am "elementos añadidos al pop-up"
+git add .
+git commit -am "colores pop-up corregidos"
