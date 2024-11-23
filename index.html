@@ -6,10 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StepAhead</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
+<script>
+    function hidePopup() {
+        document.getElementById('loadingPopup').classList.add('hide');
+        setTimeout(() => {
+            document.getElementById('loadingPopup');
+            document.getElementById('mainContent').classList.add('show');
+        }, 500);
+    }
+    </script>
 
 <body>
-    
+    <div class="container">
+        <div class="popup" id="loadingPopup" onclick="hidePopup()">
+            <h2>Cargando...</h2>
+            <p>Haz clic para continuar</p>
+        </div>
+        <div class="main-content" id="mainContent">
+            <div class="encabezado">
+                <h1 class="title">
+                    Calzados StepAhead
+                  </h1>
+                  <p class="subtitle">
+                    Zapatería <strong>única</strong>, con estilos <strong>únicos</strong>!
+                  </p>
+            </div>
+            <br><br>
+            
+              <br><br><br><br>
+              <h1 class="title">
+                Modelos disponibles
+              </h1>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img
+                          src="/images/Zapato1.jpeg"
+                          alt="Placeholder image"
+                        />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">Zapato CSS-Bulma Deportivo</p>
+                          </div>
+                        </div>
+                  
+                        <div class="content">
+                          El propio zapato hecho con CSS y Bulma, lo mejor es que es responsive! Se adapta según el tamaño de tu pié, no necesita talla. <br><br>
+                          <br>
+                          <button onclick="location.href='/formulario.html'" class="button is-danger is-dark"></a>¡Quiero éste modelo!</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img
+                          src="/images/Zapato2.jpeg"
+                          alt="Placeholder image"
+                        />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">Zapato CSS-Bulma Clásico</p>
+                          </div>
+                        </div>
+                  
+                        <div class="content">
+                          Un zapato clásico y con elegancia hecho con CSS y Bulma Se adapta según el tamaño de tu pié, te sirve para verte lo más elegante posible en cualquier lugar!. <br><br>
+                          <br>
+                          <button onclick="location.href='/formulario.html'" class="button is-danger is-dark"></a>¡Quiero éste modelo!</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img
+                          src="/images/Zapato3.jpeg"
+                          alt="Placeholder image"
+                        />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">Zapato import</p>
+                          </div>
+                        </div>
+                  
+                        <div class="content">
+                          Hecho para cualquier tipo de lenguaje de programación, servirá para que puedas llamar funciones, importar librerías, etc. tiene un estilo clásico y old-school, pero es una maravilla completa!. <br><br>
+                          <br>
+                          <button onclick="location.href='/formulario.html'" class="button is-danger is-dark"></a>¡Quiero éste modelo!</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img
+                          src="/images/Zapato4.jpeg"
+                          alt="Placeholder image"
+                        />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                          <div class="media-content">
+                            <p class="title is-4">Zapato Checkout</p>
+                          </div>
+                        </div>
+                  
+                        <div class="content">
+                          Zapato Checkout es un diseño único e innovador, el cual fué hecho para que puedas recorrer fácilmente entre los commits, las ramas y estés con facilidad en donde quieras!. <br><br>
+                          <br>
+                          <button onclick="location.href='/formulario.html'" class="button is-danger is-dark"></a>¡Quiero éste modelo!</button>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
+            
+    </div>
 </body>
 
 </html>
