@@ -7,3 +7,4 @@ git checkout Emmanuel
 git touch README_.md
 git add .
 git commit -am "maquetado pop-up"
+git add .
