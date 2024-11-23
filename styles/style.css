@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.75s ease-in-out;
+    z-index: 10;
+}
+
+.popup:active {
+    transform: translate(-50%, -48%);
+}
+
+.popup.hide {
+    transform: translate(-50%, -200%);
+}
+
+.main-content {
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
+}
+
+.main-content.show {
+    opacity: 1;
+}
+
+.card:hover {
+    transform: translateY(-1vw);
+    transition: transform 0.5s ease-in-out;
+}
+
+.cards {
+    margin-left: 20vw;
+}
+
+.card {
+    width: 60%;
+    font-size: 1.25vw;
+}
+
+.button {
+    font-size: 1vw;
+}
+
+.encabezado {
+    position: fixed;
+    left: 0;
+    padding-top: 1vw;
+    padding-left: 10vw;
+    width: 100vw;
+    height: 10vh;
+    background-color: hsl(0, 0%, 7%);
+    z-index: 1;
+}
+.article{
+    display: flex;
+}
+.notification{
+    position: relative;
+    top: 20px;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: hsl(0, 0%, 7%);
+}
+.footer2 {
+
+    width: 100vw;
+    background-color: hsl(0, 0%, 7%);
+}

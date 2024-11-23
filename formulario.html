@@ -1,11 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>StepAhead</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
+    <div class="encabezado1">
+        <div class="encabezado">
+            <h1 class="title">
+                Calzados StepAhead
+              </h1>
+              <p class="subtitle">
+                Zapatería <strong>única</strong>, con estilos <strong>únicos</strong>!
+              </p>
+        </div>
+    </div>
+   <br><br><br>
+    <div id="#articulo" class="articule">
+        <div class="notification has-background-danger-dark ">
+                <strong>Eres importante para nosotros <br> Por eso queremos conocerte un poco mas</strong></p>
+            </div>
+        <form class="box">
+        <div class="field">
+            <label class="label is-danger">Nombres y apellidos</label>
+            <div class="control">
+                <input class="input is-danger" type="text" placeholder="Ingresa tu nombres y apellidos aqui">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label is-danger">Fecha de nacimiento</label>
+            <div class="control">
+                <input class="input is-danger" type="date" min="1900-01-01" max="2004-12-31" value="2004-12-31">
+            </div>
+        </div>
+        
+    </form>
+    <form class="box">
+
+        <div class="field">
+            <label class="label">Username</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="text" placeholder="Crea tu nombre de usuario">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                </span>
+            </div>
+            <p class="help is-primary">Usa tu imaginacion</p>
+        </div>
+
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Introduce tu Email Aqui">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </span>
+            </div>
+            <p class="help is-primary">Ingresa un Email activo</p>
+        </div>
+        <div class="field">
+            <label class="label">Contraseña</label>
+            <p class="control has-icons-left">
+                <input class="input is-danger" type="password" placeholder="Crea tu contraseña" />
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <p class="help is-primary">Se creativo y usa caracteres especiales</p>
+            </p>
+        </div>
+
+        <div class="field">
+            <p class="control has-icons-left">
+                <input class="input is-danger" type="password" placeholder="Confirma tu contraseña" />
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+                <p class="help is-primary">Repite tu contraseña</p>
+            </p>
+        </div>
+        <div class="field">
+            <label class="label is-danger">Numero de celular</label>
+            <div class="control">
+                <input class="input is-danger" type="tel" placeholder="Ingresa tu Numero de Celular" size="10" maxlength="10">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Localidad</label>
+            <div class="control">
+                <div class="select is-danger">
+                    <select>
+                        <option>Selecciona tu localidad</option>
+                        <option>Medellín</option>
+                        <option>Bucaramanga</option>
+                        <option>Cali</option>
+                        <option>Cartagena</option>
+                        <option>Valledupar</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Tu nos importas</label>
+            <div class="control ">
+                <textarea class="textarea is-danger"
+                    placeholder="Deja tu comentario y un que tipo de zapatos estas buscando"></textarea>
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox">
+                    I agree to the <a href="#">terms and conditions</a>
+                </label>
+            </div>
+        </div>
+
+        <div class="field">
+            <div class="control">
+                <p>¿Deseas recibir informacion en tu correo electronico?</p>
+                <label class="radio"> 
+                    <input type="radio" name="question">
+                    Yes
+                </label>
+                <label class="radio">
+                    <input type="radio" name="question">
+                    No
+                </label>
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-danger">Submit</button>
+            </div>
+            <div class="control">
+                <button class="button is-danger is-light">Cancel</button>
+            </div>
+        </div>
+    </form>
     
+    <footer class="footer2">
+        <div class="content">
+            <div class="has-text-gray" >
+                <p><strong>Contactos</strong> </p>
+                <p>Teléfono </p>
+                <p>+57 311 2243567</p>
+                <p>Correo Electrónico </p>
+                <p>stepahead@gmail.com</p>
+            </div>
+        </div>
+      </footer>
 </body>
+
 </html>
