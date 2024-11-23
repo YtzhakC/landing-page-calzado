@@ -20,3 +20,5 @@ git add .
 git commit -am "Cambiado color footer 'index'"
 git add .
 git commit -am "Añadido y creado header 'index'"
+git add .
+git commit -am "Ajustes finales pop-up"
