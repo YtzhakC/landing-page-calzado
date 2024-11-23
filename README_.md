@@ -1,6 +1,7 @@
 git config --global user.name EmmanuelSan01
 git config --global user.email emmanuel.sanchez.estepa@gmail.com
 git config --global core.editor code
+cd /home/camper/Documentos/ESE/Git
 git clone https://github.com/YtzhakC/landing-page-calzado.git
 git branch Emmanuel
 git checkout Emmanuel
@@ -17,3 +18,5 @@ git add .
 git commit -am "Añadido footer a 'index'"
 git add .
 git commit -am "Cambiado color footer 'index'"
+git add .
+git commit -am "Añadido y creado header 'index'"
