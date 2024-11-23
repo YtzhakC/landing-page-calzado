@@ -78,3 +78,12 @@ body, html {
     position: relative;
     top: 20px;
 }
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: hsl(0, 0%, 7%);
+}
