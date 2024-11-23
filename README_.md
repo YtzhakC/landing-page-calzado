@@ -14,4 +14,6 @@ git commit -am "elementos añadidos al pop-up"
 git add .
 git commit -am "colores pop-up corregidos"
 git add .
-git commit -am "Añadido footer a index"
+git commit -am "Añadido footer a 'index'"
+git add .
+git commit -am "Cambiado color footer 'index'"
