@@ -20,8 +20,24 @@
 <body>
     <div class="container">
         <div class="popup" id="loadingPopup" onclick="hidePopup()">
-            <h2>Cargando...</h2>
-            <p>Haz clic para continuar</p>
+            <h2 class="title">Cargando...</h2>
+            <p class="subtitle">Haz clic para continuar</p>
+            <div class="modal is-active">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                  <header class="modal-card-head">
+                    <p class="modal-card-title has-text-weight-bold has-text-centered">¡¡LLEGARON LAS OFERTAS!!</p>
+                    <button class="modal-close is-large" aria-label="close"></button>
+                  </header>
+                  <section class="modal-card-body">
+                    <img src="https://img.freepik.com/vector-gratis/fondo-realista-viernes-negro_23-2149097800.jpg?semt=ais_hybrid" alt="black-friday"><br><br>
+                    <h1 class="title is-5 has-text-centered">HASTA 70% DE REBAJA EN PRODUCTOS SELECCIONADOS</h1>
+                  </section>
+                  <footer class="modal-card-foot">
+                    <button class="button is-danger is-dark is-fullwidth has-text-weight-bold" aria-label="close">QUIERO VER LOS DESCUENTOS</button>
+                  </footer>
+                </div>
+              </div>
         </div>
         <div class="main-content" id="mainContent">
             <div class="encabezado">
@@ -97,7 +113,7 @@
                     <div class="card-content">
                         <div class="media">
                           <div class="media-content">
-                            <p class="title is-4">Zapato import</p>
+                            <p class="title is-4">Zapato Import</p>
                           </div>
                         </div>
                   
